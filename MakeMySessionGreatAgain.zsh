@@ -1,7 +1,7 @@
 # Good read: https://github.com/pawelgrzybek/dotfiles/blob/master/setup-macos.sh
 # Good read: https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/
 
-# Github: https://github.com/hsabouri/MakeMySessionGrateAgain
+# Github: https://github.com/hsabouri/MakeMySessionGreatAgain
 
 wallpaper=\"/Users/${USER}/Documents/sombrero-galaxy.jpg\"
 
