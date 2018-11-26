@@ -1,4 +1,4 @@
 # MakeMySessionGreatAgain
 Brings back your 42 session settings after a reset
 
-`zsh MakeMySessionGrateAgain.zsh`
+`zsh MakeMySessionGreatAgain.zsh`
