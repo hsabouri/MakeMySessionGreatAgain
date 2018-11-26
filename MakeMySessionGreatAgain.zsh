@@ -35,11 +35,11 @@ defaults write -g KeyRepeat -int 2 && defaults write -g InitialKeyRepeat -int 15
 defaults write com.apple.screensaver askForPassword -bool $ask_password
 
 # Dock size
-defaults write com.apple.dock largesize -int $dock_size
+defaults write com.apple.dock tilesize -int $dock_size
 
 # Dock Magnification
 defaults write com.apple.dock magnification -bool $dock_magnification
-defaults write com.apple.dock tilesize -int $dock_magnification_amount
+defaults write com.apple.dock largesize -int $dock_magnification_amount
 
 # Dark style
 defaults write -globalDomain AppleInterfaceStyle -string Dark
