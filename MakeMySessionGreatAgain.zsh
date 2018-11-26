@@ -21,6 +21,12 @@ defaults write com.apple.finder AppleShowAllFiles -string YES
 
 # Add mouse right-click
 defaults write com.apple.driver.AppleHIDMouse Button2 -int 2 && defaults write com.apple.driver.AppleHIDMouse ButtonDominance -int 1
+# Mouse Tracking speed
+defaults write -g com.apple.mouse.scaling -float 2
+# Mouse double-click 
+defaults write -g com.apple.mouse.doubleClickThreshold -float 0.8
+# Mouse scroll-speed
+defaults write -g com.apple.scrollwheel.scaling -float 0.75
 
 # Keyboard repeat speed and delay
 defaults write -g KeyRepeat -int 2 && defaults write -g InitialKeyRepeat -int 15
