@@ -14,7 +14,7 @@ dock_magnification_amount=35
 dock_apps=("/Applications/System Preferences.app/" "/Applications/Visual Studio Code.app/" "/Users/"$USER"/Applications/Spotify.app/" "/Applications/Brave.app/" "/Applications/Managed Software Center.app/")
 
 # Change wallpaper
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file '${wallpaper}
+# osascript -e 'tell application "Finder" to set desktop picture to POSIX file '${wallpaper}
 
 # Show hidden files
 defaults write com.apple.finder AppleShowAllFiles -string YES
