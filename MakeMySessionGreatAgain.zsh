@@ -44,6 +44,10 @@ defaults write com.apple.dock largesize -int $dock_magnification_amount
 # Dark style
 defaults write -globalDomain AppleInterfaceStyle -string Dark
 
+# Bluetooth
+defaults write com.apple.systemuiserver NSStatusItem\ Visible\ com.apple.menuextra.bluetooth -bool true
+defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
+
 # Dock icons
  # iTerm
 defaults write com.apple.dock persistent-apps -array "<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/iTerm.app/</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>"
