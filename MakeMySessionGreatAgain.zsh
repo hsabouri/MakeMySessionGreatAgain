@@ -27,6 +27,8 @@ defaults write -g com.apple.mouse.scaling -float 2
 defaults write -g com.apple.mouse.doubleClickThreshold -float 0.8
 # Mouse scroll-speed
 defaults write -g com.apple.scrollwheel.scaling -float 0.75
+# Mouse normal scroll
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 # Keyboard repeat speed and delay
 defaults write -g KeyRepeat -int 2 && defaults write -g InitialKeyRepeat -int 15
